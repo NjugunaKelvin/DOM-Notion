@@ -2,9 +2,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Notes AppPP</title>
+    <style>
+        .container{
+            box-shadow: 0px 0px 10px 3px  orange;
+            padding: 10px;
+            margin: 10% 20%;
+        }
+        .title{
+            background: rgb(114, 2, 124);
+            padding: 5px;
+            border-radius: 10px;
+            align-items: center;
+            text-align: center;
+        }
+        h1{
+            font-family: 'Franklin Gothic Medium';
+            color: rgb(20, 213, 247);
+            font-size: 60px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        label{
+            color: greenyellow;
+        }
+        input{
+            padding: 10px;
+            border-radius: 10px;
+        }
+        textarea{
+            padding: 10px;
+            border-radius: 16px;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <div class="title">
+            <h1>Note Spark</h1>
+        </div>
+        <hr>
+        <div class="notes">
+        
+    </div>
+    <div class="myForm">
+        <form action="submit">
+            <label for="title">Note Title</label>
+            <input type="text">
+
+                <br><br>
+
+            <label for="">Note</label>
+            <textarea name="" id="tArea"></textarea>
+
+            <br><br>
+
+        </form>
+    </div>
+    </div>
+    
     
 </body>
 </html>
